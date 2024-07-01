@@ -12,7 +12,7 @@ const Modal = ({ car, isOpen, close }: Props) => {
     <>
       {isOpen && (
         <div className="fixed inset-0 bg-black z-20 bg-opacity-25 grid place-items-center">
-          <div className="relative bg-white p-6 max-w-lg max-h-[90vh] rounded-2xl flex flex-col gap-5 shadow-xl overflow-auto">
+          <div className="relative bg-white p-6 max-w-xs sm:max-w-lg max-h-[90vh] rounded-2xl flex flex-col gap-5 shadow-xl overflow-auto">
             <button
               className="cursor-pointer p-1 absolute end-1 top-1 z-10 bg-white rounded-full"
               onClick={close}
