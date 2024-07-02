@@ -64,7 +64,7 @@ const Home = () => {
         ) : isError ? (
           <Warning>Üzgünüz Verileri alırken bir hata oluştu</Warning>
         ) : cars.length < 1 ? (
-          <Warning>Aranalın krilerle uygun araç bulunamadı</Warning>
+          <Warning>Aranılan krilerle uygun araç bulunamadı</Warning>
         ) : (
           cars.length > 1 && (
             <section>
