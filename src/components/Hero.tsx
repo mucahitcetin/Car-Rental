@@ -14,7 +14,7 @@ const Hero = ({ catalogRef }: Props) => {
   return (
     <div className="hero">
       <div className="pt-36 padding-x flex-1 max-h-[920px]">
-        <h1 className="hero__title">Özgürlüğü Hisset, Yolcukuğa Başla</h1>
+        <h1 className="hero__title">Özgürlüğü Hisset, Yolculuğa Başla</h1>
 
         <p className="hero__subtitle">
           Altın standartta hizmetle unutulmaz bir yolculuğa hazır mısın? Araç
